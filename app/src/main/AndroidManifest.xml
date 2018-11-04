@@ -22,9 +22,12 @@
         <activity
             android:name=".DashboardActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.MatchActivity" />
-        <activity android:name=".activity.DetailMatchActivity"></activity>
-
+        <activity
+            android:name=".activity.MatchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DetailMatchActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

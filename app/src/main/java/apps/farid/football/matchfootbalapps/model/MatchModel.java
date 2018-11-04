@@ -8,8 +8,9 @@ public class MatchModel {
     private String descrription;
     private int logoHome;
     private int logoAway;
+    private String news;
 
-    public MatchModel(String nameHome, String nameAway, String scoreHom, String scoreAway, String descrription, int logoHome, int logoAway) {
+    public MatchModel(String nameHome, String nameAway, String scoreHom, String scoreAway, String descrription, int logoHome, int logoAway, String news) {
         this.nameHome = nameHome;
         this.nameAway = nameAway;
         this.scoreHom = scoreHom;
@@ -17,6 +18,7 @@ public class MatchModel {
         this.descrription = descrription;
         this.logoHome = logoHome;
         this.logoAway = logoAway;
+        this.news = news;
     }
 
     public String getNameHome() {
@@ -73,5 +75,13 @@ public class MatchModel {
 
     public void setLogoAway(int logoAway) {
         this.logoAway = logoAway;
+    }
+
+    public String getNews() {
+        return news;
+    }
+
+    public void setNews(String news) {
+        this.news = news;
     }
 }

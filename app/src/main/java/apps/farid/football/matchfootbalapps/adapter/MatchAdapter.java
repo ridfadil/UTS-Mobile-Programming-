@@ -89,6 +89,7 @@ public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchViewHol
             i.putExtra("scoreaway", element.getScoreAway());
             i.putExtra("scorehome", element.getScoreHom());
             i.putExtra("description", element.getDescrription());
+            i.putExtra("news", element.getNews());
             context.startActivity(i);
             mAdapter.notifyDataSetChanged();
         }
